@@ -1,4 +1,4 @@
-/*!
+@media (min-width:992px){.profile-title span{padding:0}}@media (max-width:991px){.profile-title,.profile-title span{text-align:center}}@media (max-width:768px){.profile-contact{text-align:center}.contact-icon{display:inline-block;margin:0 5%}.contact-icon i{font-size:5em}.profile-skills>div{text-align:center;padding:0}.profile-skills>div>span{float:none;display:inline-block}.profile-image{margin:auto}.profile-title{text-align:center}}/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
