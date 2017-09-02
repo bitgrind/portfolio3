@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "description": "Keith Stedman's personal work and resume",
+  "main": "",
+  "authors": [
+    "Keith Stedman <keithstedman@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

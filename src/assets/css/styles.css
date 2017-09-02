@@ -1,0 +1,10 @@
+.profile-title span {font-size: .6em;}
+
+nav .profile-about h3 {margin:0;}
+.profile-skills span {font-size:.8em;vertical-align:top;text-align: center;}
+.profile-skills span i {font-size:5em;display:block;}
+.profile-skills span img {display:block;margin:auto;}
+.lang-icon {width:50px;max-height: 50px;}
+
+.profile-image {border-radius:50%;overflow: hidden;width:200px;height:200px;}
+.profile-image > img {width:100%;height:100%;}
