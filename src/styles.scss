@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@media (min-width: 992px) {
+  .profile-title span {padding:0;}
+}
+
+@media (max-width: 991px) {
+  .profile-title {text-align: center;}
+  .profile-title span {text-align: center;}
+}
+
+@media (max-width: 768px) {
+  .profile-contact {text-align: center;}
+  .contact-icon {display:inline-block;margin:0 5%;}
+  .contact-icon i {font-size:5em;}
+
+  .profile-skills > div {text-align: center;padding:0px;}
+  .profile-skills > div > span {float:none; display:inline-block;}
+
+  .profile-image {margin:auto;}
+
+  .profile-title {text-align: center;}
+}
