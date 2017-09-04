@@ -1,5 +1,27 @@
-<nav class="container">
-  <div class="row">
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <div class="profile-info row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
       <div class="profile-image">
         <img src="assets/images/Keith-Stedman.jpg">
@@ -38,72 +60,294 @@
         </div>
       </div>
       <div class="profile-skills col-xs-12 col-sm-12 col-md-8 col-xl-8">
-        <h3>Languages</h3>
+        <h3 class="hidden-xs">Languages</h3>
         <div class="col-xs-12 col-md-12">
-          <span class="col-xs-2 col-md-2">
+          <span class="tech-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
-            <img class="lang-icon" src="assets/images/html5.png"></a>
-            <span>HTML5</span>
+              <img class="lang-icon" src="assets/images/html5.png">
+              <span>HTML5</span>
+            </a>
           </span>
-          <span class="col-xs-2 col-md-2">
+          <span class="tech-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-            <img class="lang-icon" src="assets/images/js-logo.png"></a>
-            <span>JavaScript ES6</span>
+              <img class="lang-icon" src="assets/images/js-logo.png">
+              <span>JavaScript ES6</span>
+            </a>
           </span>
-          <span class="col-xs-2 col-md-2">
+          <span class="tech-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-            <img class="lang-icon" src="assets/images/css-logo.png"></a>
-            <span>CSS3</span>
+              <img class="lang-icon" src="assets/images/css-logo.png">
+              <span>CSS3</span>
+            </a>
           </span>
-          <span class="col-xs-2 col-md-2">
+          <span class="tech-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="https://gulpjs.com/" target="_blank">
               <img class="lang-icon" src="assets/images/gulp-logo.png">
+              <span>Gulp</span>
             </a>
-            <span>Gulp</span>
           </span>
-          <span class="col-xs-2 col-md-2">
+          <span class="tech-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="https://gruntjs.com/" target="_blank">
-            <img class="lang-icon" src="assets/images/grunt-logo.png"></a>
-            <span>Grunt</span>
+              <img class="lang-icon" src="assets/images/grunt-logo.png">
+              <span>Grunt</span>
+            </a>
           </span>
         </div>
         <div class="col-xs-12 col-md-12">
-          <span class="col-xs-2 col-md-2">
+          <span class="tech-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="https://cli.angular.io/" target="_blank">
-            <img class="lang-icon" src="assets/images/angular-icon.png">
+              <img class="lang-icon" src="assets/images/angular-icon.png">
+              <span>Angular2 Cli</span>
             </a>
-            <span>Angular2 Cli</span>
           </span>
-          <span class="col-xs-2 col-md-2">
+          <span class="tech-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="https://reactjs.net/" target="_blank">
-            <img class="lang-icon" src="assets/images/react-icon.png"></a>
-            <span>React</span>
+              <img class="lang-icon" src="assets/images/react-icon.png">
+              <span>React</span>
+            </a>
           </span>
-          <span class="col-xs-2 col-md-2">
+          <span class="tech-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="https://nodejs.org/en/" target="_blank">
-            <img class="lang-icon" src="assets/images/node-logo.png"></a>
-            <span>Node</span>
+              <img class="lang-icon" src="assets/images/node-logo.png">
+              <span>Node</span>
+            </a>
           </span>
-          <span class="firebase-icon" class="col-xs-2 col-md-2">
+          <span class="tech-icon firebase-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="https://firebase.google.com/" target="_blank">
-            <img class="lang-icon" src="assets/images/firebase-logo.png"></a>
-            <span>Firebase</span>
+              <img class="lang-icon" src="assets/images/firebase-logo.png">
+              <span>Firebase</span>
+            </a>
           </span>
-          <span class="col-xs-2 col-md-2">
+          <span class="tech-icon col-xs-2 col-md-2">
             <a class="lang-icon-links" href="http://sass-lang.com/" target="_blank">
-            <img class="lang-icon" src="assets/images/sass-logo.png"></a>
-            <span>SASS</span>
+              <img class="lang-icon" src="assets/images/sass-logo.png">
+              <span>SASS</span>
+            </a>
           </span>
         </div>
       </div>
     </div>
   </div>
-</nav>
-<main class="container">
-  <div class="row">
-    <div class="col-12">
-      <h1>Main Body Portfolio</h1>
+</div>
+<div class="container">
+  <h1 id="projects">Projects</h1>
+  <div class="card-body col-xs-12 col-sm-12 col-md-6">
+    <div class="card">
+      <a href="https://github.com/bitgrind/HackOregon-HomelessProject" target="_blank">
+        <img class="card-img-top" src="assets/images/Hack-Oregon-Home.jpg" alt="Card image cap">
+      </a>
+      <div class="card-body">
+        <a href="https://github.com/bitgrind/HackOregon-HomelessProject" target="_blank">
+          <h2 class="card-title">Hack Oregon - Homeless Civic Project</h2>
+        </a>
+        <p class="card-text">Built in <a href="https://reactjs.net/" target="_blank">React</a> with Hack Oregon homeless civic population API. Using Restful API end points and JavaScript AJAX calls to recieve JSON packets, then using <a href="http://recharts.org/#/en-US/" target="_blank">Re-Charts</a>, I would graph the data points.</p>
+        <div>
+          <span class="tech-icon col-xs-3 col-md-3">
+            <a class="lang-icon-links" href="https://reactjs.net/" target="_blank">
+              <img class="lang-icon" src="assets/images/react-icon.png">
+              <span>React</span>
+            </a>
+          </span>
+          <span class="tech-icon col-xs-3 col-md-3">
+            <a class="lang-icon-links" href="https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started" target="_blank">
+              <img class="lang-icon" src="assets/images/ajax.png">
+              <span>AJAX</span>
+            </a>
+          </span>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="card-body col-xs-12 col-sm-12 col-md-6">
+    <div class="card">
+      <a href="https://github.com/bitgrind/reupfarms" target="_blank">
+        <img class="card-img-top" src="assets/images/Reup-Logo.png" alt="Card image cap">
+      </a>
+      <div class="card-body">
+        <a href="https://github.com/bitgrind/reupfarms" target="_blank">
+          <h2 class="card-title">Reup</h2>
+        </a>
+        <p class="card-text">Reup is a Web-App that is positioned for the Marijuana Industry, particularlly Cultivation, Dispensaries and Consumers. I plan to use Ionic to port the App to both Andriod and IOS phones. Right now the App is in Beta Developement and should be ready for Beta Testing in a month. Using knowledge from the industry I want to make an app that solves origzational issues with convience.</p>
+        <span class="tech-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="https://cli.angular.io/" target="_blank">
+          <img class="lang-icon" src="assets/images/angular-icon.png">
+          <span>Angular2 Cli</span>
+          </a>
+        </span>
+        <span class="tech-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="https://nodejs.org/en/" target="_blank">
+          <img class="lang-icon" src="assets/images/node-logo.png"></a>
+          <span>Node</span>
+        </span>
+        <span class="tech-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="https://go.java/index.html?intcmp=gojava-banner-java-com" target="_blank">
+            <img class="lang-icon" src="assets/images/materialize-css.png">
+            <span>Materialize</span>
+          </a>
+        </span>
+        <span class="tech-icon firebase-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="https://firebase.google.com/" target="_blank">
+            <img class="lang-icon" src="assets/images/firebase-logo.png">
+            <span>Firebase</span>
+          </a>
+        </span>
+        <span class="tech-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="http://sass-lang.com/" target="_blank">
+          <img class="lang-icon" src="assets/images/sass-logo.png">
+          <span>SASS</span>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body col-xs-12 col-sm-12 col-md-6">
+    <div class="card">
+      <a href="https://github.com/bitgrind/Wolftannica" target="_blank">
+        <img class="card-img-top" src="assets/images/Wolftanica-Header.jpg" alt="Card image cap">
+      </a>
+      <div class="card-body">
+        <a href="https://github.com/bitgrind/Wolftannica" target="_blank">
+          <h2 class="card-title">Wolftannica</h2>
+        </a>
+        <p class="card-text">Wolftannica is an Android App built in Android Studio with a Firebase backend.</p>
+        <span class="tech-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="https://developer.android.com/studio/index.html" target="_blank">
+            <img class="lang-icon" src="assets/images/andriod-studios.png">
+            <span>Andriod<br>Studios</span>
+          </a>
+        </span>
+        <span class="tech-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="https://go.java/index.html?intcmp=gojava-banner-java-com" target="_blank">
+            <img class="lang-icon" src="assets/images/java.png">
+            <span>Java</span>
+          </a>
+        </span>
+        <span class="tech-icon firebase-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="https://firebase.google.com/" target="_blank">
+            <img class="lang-icon" src="assets/images/firebase-logo.png">
+            <span>Firebase</span>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="card-body col-xs-12 col-sm-12 col-md-6">
+    <div class="card">
+      <a href="https://github.com/bitgrind/java-wildlife-tracker" target="_blank">
+        <img class="card-img-top" src="assets/images/Wild-Life-Tracker.png" alt="Card image cap">
+      </a>
+      <div class="card-body">
+        <a href="https://github.com/bitgrind/java-wildlife-tracker" target="_blank">
+          <h2 class="card-title">Wild Life Tracker</h2>
+        </a>
+        <p class="card-text">Wild Life Tracker is a Application writen in Java that uses Postgres SQL databases to keep track of animals sighted by Wild-life Rangers as well as add new wild to be tracked, Time Stamped Data, .</p>
+        <span class="tech-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="https://go.java/index.html?intcmp=gojava-banner-java-com" target="_blank">
+            <img class="lang-icon" src="assets/images/java.png">
+            <span>Java</span>
+          </a>
+        </span>
+        <span class="tech-icon firebase-icon col-xs-3 col-md-3">
+          <a class="lang-icon-links" href="https://firebase.google.com/" target="_blank">
+            <img class="lang-icon" src="assets/images/postgresql-logo.png">
+            <span>Postgres</span>
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div id="experience" class="col-xs-12 col-sm-12">
+    <h1>Past Experience</h1>
+  <div>
+      <!-- <div class="past-experience well col-md-12">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="past-experience-logo">
+              <img src="assets/images/epicodus-logo.png">
+            </div>
+            <h2>Epicodus</h2>
+            <h3>2017</h3>
+          </div>
+          <div class="projects row col-md-12">
+            <div class="epicodus-project col-md-6">
+              <h3>Vacation Desination</h3>
+              <a href="https://github.com/bitgrind/vacay" target="_blank"></a>
+              <p>This is a small experimental site using Bootstrap to get familiar with the platform. Languages: HTML, CSS &amp; Bootstrap.</p>
+            </div>
+            <div class="epicodus-project col-md-6">
+              <h3>Wiki Mock</h3>
+              <a href="https://github.com/bitgrind/wiki" target="_blank"></a>
+              <p>A short exercise is mimicking web pages, using Bootstrap to imitate a partiular sites design. Languages: HTML, CSS &amp; Bootstrap</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+  <div class="past-experience col-md-12 col-lg-6">
+    <div class="well">
+      <div class="past-experience-logo">
+        <img class="logo" src="assets/images/rose-city-vinyl.png">
+      </div>
+      <h2>Rose City Vinyl</h2>
+      <h3>2015-2017</h3>
+    </div>
+  </div>
+  <div class="past-experience col-md-12 col-lg-6">
+    <div class="well">
+      <div class="past-experience-logo">
+        <img class="logo" src="assets/images/ds-logo-blog.png">
+      </div>
+      <h2>Dealer Spike</h2>
+      <h3>2014-2015</h3>
+    </div>
+  </div>
+  <div class="past-experience col-md-12 col-lg-6">
+    <div class="well">
+      <div class="past-experience-logo">
+        <img class="logo" src="assets/images/stedman-for-senate-logo.png">
+      </div>
+      <h2>Stedman for Senate</h2>
+      <h3>2012, 2016</h3>
+    </div>
+  </div>
+  <div class="past-experience col-md-12 col-lg-6">
+    <div class="well">
+      <div class="past-experience-logo">
+        <img class="logo" src="assets/images/digital-arts.png">
+      </div>
+      <h2>University of Oregon BFA Program at White Stag</h2>
+      <h3>2012</h3>
+    </div>
+  </div>
+  <div class="past-experience col-md-12 col-lg-6">
+    <div class="well">
+      <div class="past-experience-logo">
+        <img class="logo" src="assets/images/HiveLogo.gif">
+      </div>
+      <h2>Hive Interactive</h2>
+      <h3>2011</h3>
+    </div>
+  </div>
+  <div id="CMET" class="past-experience col-md-12 col-lg-6">
+    <div class="well">
+      <div class="past-experience-logo">
+        <img class="logo" src="assets/images/uo-long-logo.png">
+      </div>
+      <h2>University of Oregon Library Center for Media and Education Techonogly</h2>
+      <h3>2010-2011</h3>
+    </div>
+  </div>
+  <div class="past-experience col-md-12 col-lg-6">
+    <div class="well">
+      <div class="past-experience-logo">
+        <img class="logo" src="assets/images/uo-logo.png">
+      </div>
+      <h2>University of Oregon Althletic Department</h2>
+      <h3>2009-2010</h3>
+    </div>
+  </div>
+</div>
+<!-- <main class="container">
+  <div class="row">
     <div id="resume" class="col-12 row">
       <h1 class="col-12">Resume</h1>
       <div class="col-8">
@@ -117,82 +361,7 @@
       </div>
     </div>
   </div>
-  <div class="clear">
-    <h1>Past Experience</h1>
-    <!-- <div class="past-experience well col-md-12">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="past-experience-logo">
-            <img src="assets/images/epicodus-logo.png">
-          </div>
-          <h2>Epicodus</h2>
-          <h3>2017</h3>
-        </div>
-        <div class="projects row col-md-12">
-          <div class="epicodus-project col-md-6">
-            <h3>Vacation Desination</h3>
-            <a href="https://github.com/bitgrind/vacay" target="_blank"></a>
-            <p>This is a small experimental site using Bootstrap to get familiar with the platform. Languages: HTML, CSS &amp; Bootstrap.</p>
-          </div>
-          <div class="epicodus-project col-md-6">
-            <h3>Wiki Mock</h3>
-            <a href="https://github.com/bitgrind/wiki" target="_blank"></a>
-            <p>A short exercise is mimicking web pages, using Bootstrap to imitate a partiular sites design. Languages: HTML, CSS &amp; Bootstrap</p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="past-experience well col-md-12">
-      <div class="past-experience-logo">
-        <img class="logo" src="assets/images/rose-city-vinyl.png">
-      </div>
-      <h2>Rose City Vinyl</h2>
-      <h3>2015-2017</h3>
-    </div>
-    <div class="past-experience well col-md-12">
-      <div class="past-experience-logo">
-        <img class="logo" src="assets/images/ds-logo-blog.png">
-      </div>
-      <h2>Dealer Spike</h2>
-      <h3>2014-2015</h3>
-    </div>
-    <div class="past-experience well col-md-12">
-      <div class="past-experience-logo">
-        <img class="logo" src="assets/images/stedman-for-senate-logo.png">
-      </div>
-      <h2>Stedman for Senate</h2>
-      <h3>2012, 2016</h3>
-    </div>
-    <div class="past-experience well col-md-12">
-      <div class="past-experience-logo">
-        <img class="logo" src="assets/images/digital-arts.png">
-      </div>
-      <h2>University of Oregon BFA Program at White Stag</h2>
-      <h3>2012</h3>
-    </div>
-    <div class="past-experience well col-md-12">
-      <div class="past-experience-logo">
-        <img class="logo" src="assets/images/HiveLogo.gif">
-      </div>
-      <h2>Hive Interactive</h2>
-      <h3>2011</h3>
-    </div>
-    <div id="CMET" class="past-experience well col-md-12">
-      <div class="past-experience-logo">
-        <img class="logo" src="assets/images/uo-long-logo.png">
-      </div>
-      <h2>University of Oregon Library Center for Media and Education Techonogly</h2>
-      <h3>2010-2011</h3>
-    </div>
-    <div class="past-experience well col-md-12">
-      <div class="past-experience-logo">
-        <img class="logo" src="assets/images/uo-logo.png">
-      </div>
-      <h2>University of Oregon Althletic Department</h2>
-      <h3>2009-2010</h3>
-    </div>
-  </div>
-</main>
-<footer class="container">
+</main> -->
+<footer class="container col-lg-12">
   <h1>Footer</h1>
 </footer>

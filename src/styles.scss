@@ -1,24 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+nav .navbar-nav {float:right;}
+nav.navbar {background-color:rgba(255,255,255,.8);box-shadow: 0px 2px 2px #ddd;}
+
+.card-header {position: relative;}
+
+//Customizing buttons
+// .collapse-tags {position: absolute;left:0px;top:0px;height: 100%; width:100%;display:block;}
+
+.profile-info {margin-top:80px;}
+
+.tech-icon {text-align: center;}
+.tech-icon span {display:block;}
+
+.container .past-experience .well {min-height:400px;}
+
+
 @media (min-width: 992px) {
+  .profile-title {margin-top:0;}
   .profile-title span {padding:0;}
 }
 
 @media (max-width: 991px) {
+  .card-body .card .card-img-top {max-height:200px;}
   .profile-title {text-align: center;}
   .profile-title span {text-align: center;}
 }
 
 @media (max-width: 768px) {
+  .card-body .card .card-img-top {max-height:200px;}
   .profile-contact {text-align: center;}
   .contact-icon {display:inline-block;margin:0 5%;}
-  .contact-icon i {font-size:5em;}
+  .contact-icon i {font-size:4em;}
 
   .profile-skills > div {text-align: center;padding:0px;}
   .profile-skills > div > span {float:none; display:inline-block;}
 
-  .profile-image {margin:auto;}
+  .profile-image {margin:10px auto 0;}
 
   .profile-title {text-align: center;}
 }
