@@ -6,6 +6,9 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
+//Bootstrap
+import { AlertModule } from 'ngx-bootstrap';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +17,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AlertModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

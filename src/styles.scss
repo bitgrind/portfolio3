@@ -1,20 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
+section {padding-top:50px;}
 
 nav .navbar-nav {float:right;}
 nav.navbar {background-color:rgba(255,255,255,.8);box-shadow: 0px 2px 2px #ddd;}
 
 .card-header {position: relative;}
 
-//Customizing buttons
-// .collapse-tags {position: absolute;left:0px;top:0px;height: 100%; width:100%;display:block;}
-
+  .lang-icon-links {height:65px;}
 .profile-info {margin-top:80px;}
+.profile-skills span img {position: absolute;left:0;right:0;}
+.tech-icon span {position: absolute;bottom:0px;left:0;right:0;}
 
 .tech-icon {text-align: center;}
 .tech-icon span {display:block;}
 
-.container .past-experience .well {min-height:400px;}
+.container .past-experience .well {min-height:410px;}
+.past-experience h2, .past-experience h3 {display:inline-block;}
+
+footer {text-align: center;padding-bottom:20px;}
+footer .contact-icon {display:inline-block;}
+footer .contact-icon {margin:0 20px;}
+footer .contact-icon i {font-size: 3em;}
 
 
 @media (min-width: 992px) {
@@ -23,21 +30,36 @@ nav.navbar {background-color:rgba(255,255,255,.8);box-shadow: 0px 2px 2px #ddd;}
 }
 
 @media (max-width: 991px) {
+
   .card-body .card .card-img-top {max-height:200px;}
   .profile-title {text-align: center;}
   .profile-title span {text-align: center;}
+
+  .past-experience img {width:100%}
 }
 
 @media (max-width: 768px) {
+  .navbar-brand {position: absolute;top:0px;left:20px;}
+  .navbar-toggler {position: absolute;top:10px;right:20px;}
+  .nav-item {text-align: right;}
+
   .card-body .card .card-img-top {max-height:200px;}
   .profile-contact {text-align: center;}
-  .contact-icon {display:inline-block;margin:0 5%;}
+  .contact-icon {display:inline-block;margin:0 3%;}
   .contact-icon i {font-size:4em;}
 
+  .profile-skills {margin-top:20px;}
   .profile-skills > div {text-align: center;padding:0px;}
   .profile-skills > div > span {float:none; display:inline-block;}
 
   .profile-image {margin:10px auto 0;}
 
   .profile-title {text-align: center;}
+
+  .past-experience img {width:100%}
+}
+
+@media (max-width: 575px) {
+  .navbar-collapse {margin-top:40px;}
+
 }
